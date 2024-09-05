@@ -43,10 +43,10 @@ public class edit extends HttpServlet {
 		out.println("<form action='editaction' method='post'>");
 		out.println("<table>");
 		out.println("<tr><td></td><td><input type='hidden' name='id' value='"+id+"''/></td></tr>");
-		out.println("<tr><td> Cafe name:</td><td><input type='text' name='name' value='"+name+"''/></td></tr>");
-		out.println("<tr><td> Cafe city:</td><td><input type='text' name='city' value='"+city+"''/></td></tr>");
-		out.println("<tr><td> Cafe price:</td><td><input type='text' name='price' value='"+price+"''/></td></tr>");
-		out.println("<tr><td> Cafe rating:</td><td><input type='text' name='rating' value='"+rating+"''/></td></tr>");
+		out.println("<tr><td> Hotel name:</td><td><input type='text' name='name' value='"+name+"''/></td></tr>");
+		out.println("<tr><td> Hotel city:</td><td><input type='text' name='city' value='"+city+"''/></td></tr>");
+		out.println("<tr><td> Hotel price:</td><td><input type='text' name='price' value='"+price+"''/></td></tr>");
+		out.println("<tr><td> Hotel rating:</td><td><input type='text' name='rating' value='"+rating+"''/></td></tr>");
 		out.println("<tr><td></td><td><input type='submit' name='submit' value='edit''/></td>");
 		
 		out.println("</table>");
