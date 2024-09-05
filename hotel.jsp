@@ -27,7 +27,7 @@ background-color:skyblue;
 <form action="hotelinsert" method="post">
 <h2>Cafe Details</h2>
 <br>
-<b>CafeName:</b><input type="text" name="name"><br><br>
+<b>HotelName:</b><input type="text" name="name"><br><br>
 <b>City:</b> <input type="text" name="city"><br><br>
 <b>Price:</b> <input type="text" name="price"><br><br>
 <b>Rating:</b><input type="text" name="rating"><br><br>
