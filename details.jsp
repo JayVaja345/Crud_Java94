@@ -15,7 +15,7 @@ text-align: center;
 <body>
 
 <h2>display Product</h2>
-<a href="cafe.jsp">Add new cafe details</a>
+<a href="cafe.jsp">Add new hotel details</a>
 <br><br>
 <a href="displaydata"> Show Details</a>
 
