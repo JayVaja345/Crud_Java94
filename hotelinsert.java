@@ -49,7 +49,7 @@ public class cafeinsert extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","Dish@123");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","jay12345");
 			String Insert="insert into cafe(name,city,price,rating)values(?,?,?,?)";
 			PreparedStatement ps=con.prepareStatement(Insert);
 			
@@ -62,7 +62,7 @@ public class cafeinsert extends HttpServlet {
 			
 			out.println("<html>");
 			out.println("<body align=center>");
-			out.println("<h2> successful insert cafe data");
+			out.println("<h2> successful insert hotel data");
 			out.println("<br><a href=\"details.jsp\">Show details</a>");
 			out.println("</body>");
 			out.println("</html>");
