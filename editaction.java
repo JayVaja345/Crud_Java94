@@ -49,7 +49,7 @@ public class editaction extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","Dish@123");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","jay12345");
 			String update="update cafe set name=?,city=?,price=?,rating=? where id=?";
 			PreparedStatement ps=con.prepareStatement(update);
 		
