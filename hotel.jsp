@@ -24,7 +24,7 @@ background-color:skyblue;
 </head>
 <body>
 
-<form action="cafeinsert" method="post">
+<form action="hotelinsert" method="post">
 <h2>Cafe Details</h2>
 <br>
 <b>CafeName:</b><input type="text" name="name"><br><br>
