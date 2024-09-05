@@ -40,15 +40,15 @@ public class cdisplay extends HttpServlet {
 		out.println("<html>");
 		out.println("<body align=center>");
 		out.println("<h2>Cafe's Details</h2>");
-		out.println("<br>Cafe's Name:  "+name);
-		out.println("<br>Cafe's city:  "+city);
+		out.println("<brHotel Name:  "+name);
+		out.println("<br>Hotel city:  "+city);
 		out.println("<br>For two person:  "+price);
-		out.println("<br>Cafe's Rate:  "+rating);
+		out.println("<br>Hotel Rate:  "+rating);
 		
 		out.println("<br><br><a href='"+deleteUrl+"'>"+"Delete"+"</a><br>");
 		out.println("<br><a href='"+editUrl+"'>"+"Edit"+"</a><br>");
 		
-//		out.println("<br><a href=\"cafe.jsp\">Show details</a>");
+//		out.println("<br><a href=\"hotel.jsp\">Show details</a>");
 		out.println("</body");
 		out.println("</html>");
 		
