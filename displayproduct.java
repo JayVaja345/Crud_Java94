@@ -38,7 +38,7 @@ public class displayproduct extends HttpServlet {
 				try {
 					
 					Class.forName("com.mysql.cj.jdbc.Driver");
-					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","Dish@123");
+					Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","jay12345");
 					String display="select * from product";
 					PreparedStatement ps=con.prepareStatement(display);
 						
